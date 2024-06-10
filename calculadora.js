@@ -6,7 +6,7 @@ let calculadora = readlineSync.question("Escolha a operacao: ");
 let r;
 switch (calculadora) {
     case "+":
-        r = parseInt(a) + parseInt(b);
+        r = parseFloat(a) + parseFloat(b);
         console.log(r);
         break;
 
